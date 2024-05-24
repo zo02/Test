@@ -1,0 +1,15 @@
+{
+    "name": "zb/lab",
+    "description": "Testowy",
+    "type": "project",
+    "require": {
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zb\\Lab\\": "src/"
+        }
+    },
+    "minimum-stability": "RC"
+}
